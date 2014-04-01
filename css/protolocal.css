@@ -1,0 +1,63 @@
+html, body {
+	height: 100%;
+	font-size: 1.1rem;
+}
+
+#wrapper {
+	min-height: 100%;
+}
+
+#main {
+	overflow:auto;
+	padding-bottom: 2em; /* must be same height as the footer */
+}
+
+#logo-container img {
+	display: block;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Opera Fix*/
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+#description {
+	padding: 20px;
+	text-align: center;
+
+	background-color: rgba(230, 230, 230, 0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+#container {
+    text-align: left;
+    display: inline-block;
+    /* for ie6/7: */
+    *display: inline;
+    zoom: 1;
+}
+
+
+footer {
+	position: relative;
+	margin-top: -2em; /* negative value of footer height */
+	height: 2em;
+	clear: both;
+
+	background-color: #ddd;
+	text-align: center;
+	font-size: 14px;
+}
