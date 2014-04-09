@@ -2,7 +2,16 @@
 
 html, body {
 	height: 100%;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0;
+}
+
+h1 {
+	margin-bottom: 0;
 }
 
 #wrapper {
@@ -14,12 +23,12 @@ html, body {
 
 #main {
 	overflow:auto;
-	padding-bottom: 2em; /* must be same height as the footer */
+	padding-bottom: 3em; /* must be same height as the footer */
 }
 
 #logo-container img {
 	display: block;
-	max-width: 800px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -54,6 +63,10 @@ html, body {
 	padding: 20px;
 }
 
+#social-media p{
+	margin-bottom: 5px;
+}
+
 .center {
 	text-align: center;
 }
@@ -69,11 +82,12 @@ html, body {
 
 footer {
 	position: relative;
-	margin-top: -2em; /* negative value of footer height */
-	height: 2em;
+	margin-top: -3em; /* negative value of footer height */
+	height: 3em;
 	clear: both;
 
-	background-color: #ddd;
+	color: #ddd;
+	background-color: #333;
 	text-align: center;
 	font-size: 14px;
 }
@@ -90,4 +104,6 @@ body:before {
 /* Overrides */
 .btn {
 	background-color: #007950;
+	font-size: 1.2rem;
+	line-height: inherit;
 }
