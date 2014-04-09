@@ -7,6 +7,9 @@ html, body {
 
 #wrapper {
 	min-height: 100%;
+	background-image: url('../images/business-walk.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 #main {
@@ -16,7 +19,7 @@ html, body {
 
 #logo-container img {
 	display: block;
-	max-width: 900px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -27,7 +30,7 @@ html, body {
 	max-width: 1000px;
 
 	color: white;
-	background-color: rgba(69, 59, 55, 0.8);
+	background-color: rgba(69, 59, 55, 0.9);
 
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -36,15 +39,15 @@ html, body {
 }
 
 #description {
-	color: #555;
-
 	padding: 20px;
-	background-color: rgb(230, 230, 230);
+	/*background-color: rgba(230, 230, 230, 0.3);*/
+	border-right: 2px solid rgba(220, 220, 220, 0.2);
 }
 
 #short-description {
-	color: #333;
+	color: white;
 	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 55px;
 }
 
 #social-media {
