@@ -21,6 +21,7 @@ h1, p {
 	font-weight: 100;
 }
 
+
 #wrapper {
 	min-height: 100%;
 	background-image: url('../images/business-walk.jpg');
@@ -78,6 +79,7 @@ h1, p {
 }
 
 #social-media {
+	font-size: 1rem;
 	padding: 20px;
 	padding-bottom: 40px;
 	margin-bottom: 0;
@@ -85,6 +87,16 @@ h1, p {
 
 #social-media p{
 	margin-bottom: 5px;
+}
+
+.email {
+	color: white;
+	text-decoration: none;
+}
+
+.email:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 .center {
@@ -124,7 +136,9 @@ body:before {
 /* Overrides */
 .btn {
 	background-color: #007950;
-	font-size: 1.2rem;
-	line-height: inherit;
-	height: auto;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	box-sizing: content-box;
+	margin-bottom: 1rem;
 }
