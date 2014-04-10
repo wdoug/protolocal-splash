@@ -81,12 +81,22 @@ h1, p {
 #social-media {
 	font-size: 1rem;
 	padding: 20px;
+	padding-bottom: 40px;
 	margin-bottom: 0;
-	border-top: 2px solid rgba(220, 220, 220, 0.2);
 }
 
 #social-media p{
 	margin-bottom: 5px;
+}
+
+.email {
+	color: white;
+	text-decoration: none;
+}
+
+.email:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 .center {
@@ -130,10 +140,5 @@ body:before {
 	line-height: 1.5rem;
 	height: 1.5rem;
 	box-sizing: content-box;
-	-moz-box-sizing: content-box;
 	margin-bottom: 1rem;
-}
-
-.last {
-	margin-bottom: 0;
 }
