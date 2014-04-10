@@ -1,8 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
 html, body {
 	height: 100%;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 p {
@@ -14,11 +15,18 @@ h1 {
 	margin-bottom: 0;
 }
 
+h1, p {
+	color: white;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-weight: 100;
+}
+
 #wrapper {
 	min-height: 100%;
 	background-image: url('../images/business-walk.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-position: center;
 }
 
 #main {
@@ -53,14 +61,26 @@ h1 {
 	border-right: 2px solid rgba(220, 220, 220, 0.2);
 }
 
+#about {
+	font-size: 24px;
+}
+
 #short-description {
 	color: white;
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 55px;
+	font-weight: 100;
+}
+
+#coming-soon {
+	margin-top: 1rem;
+	font-size: 1rem;
 }
 
 #social-media {
 	padding: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 0;
 }
 
 #social-media p{
@@ -106,4 +126,5 @@ body:before {
 	background-color: #007950;
 	font-size: 1.2rem;
 	line-height: inherit;
+	height: auto;
 }
