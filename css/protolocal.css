@@ -140,5 +140,6 @@ body:before {
 	line-height: 1.5rem;
 	height: 1.5rem;
 	box-sizing: content-box;
+	-moz-box-sizing: content-box;
 	margin-bottom: 1rem;
 }
